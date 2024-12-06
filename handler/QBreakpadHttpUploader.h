@@ -25,6 +25,7 @@
 #include <QNetworkAccessManager>
 #include <QNetworkRequest>
 #include <QNetworkReply>
+#include <QDebug>
 
 class QString;
 class QUrl;

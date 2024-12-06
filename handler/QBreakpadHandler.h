@@ -23,6 +23,7 @@
 #include <QString>
 #include <QUrl>
 #include "singletone/singleton.h"
+#include <QDebug>
 
 namespace google_breakpad {
     class ExceptionHandler;

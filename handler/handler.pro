@@ -11,6 +11,9 @@ OBJECTS_DIR = _build/obj
 MOC_DIR = _build
 DESTDIR = $$PWD
 
+QMAKE_CXXFLAGS_RELEASE = $$QMAKE_CFLAGS_RELEASE_WITH_DEBUGINFO #realease模式下也可以生成pdb文件
+QMAKE_LFLAGS_RELEASE = $$QMAKE_LFLAGS_RELEASE_WITH_DEBUGINFO
+
 ### qBreakpad config
 include($$PWD/../config.pri)
 
