@@ -1,6 +1,6 @@
 [submodule "third_party/breakpad"]
 	path = third_party/breakpad
-	url = https://chromium.googlesource.com/breakpad/breakpad
+	url = https://github.com/google/breakpad.git
 [submodule "third_party/lss"]
 	path = third_party/lss
-	url = https://chromium.googlesource.com/linux-syscall-support
+	url = https://github.com/noexcept/linux-syscall-support.git
