@@ -5,16 +5,17 @@
 build*/
 *.pro.user*
 .qtc_clangd/
-*.slo
-*.lo
-*.o
-*.a
-*.la
-*.lai
-*.so
-*.dll
-*.dylib
-*.lib
+
+handler/**/*.slo
+handler/**/*.lo
+handler/**/*.o
+handler/**/*.a
+handler/**/*.la
+handler/**/*.lai
+handler/**/*.so
+handler/**/*.dll
+handler/**/*.dylib
+handler/**/*.lib
 
 # Qt-es
 *.qmake.cache
