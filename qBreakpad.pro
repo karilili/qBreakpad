@@ -1,4 +1,3 @@
 CONFIG += ordered
 TEMPLATE = subdirs
-SUBDIRS += handler demo tests \
-    myWork/test/testPri
+SUBDIRS += handler demo tests

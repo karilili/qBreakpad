@@ -1,5 +1,8 @@
 QT = core
 
+path_to_qbreakpad = ../../..
+include($$PWD/$$path_to_qbreakpad/myWork/mybuild.pri)
+
 CONFIG += c++17 cmdline
 
 # You can make your code fail to compile if it uses deprecated APIs.

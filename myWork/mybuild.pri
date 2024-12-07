@@ -39,8 +39,8 @@ equals(QT_MAJOR_VERSION, 5) { #qt5
     unix:qtLib_compiler_name = GCC_64_QT_5_15
 }
 equals(QT_MAJOR_VERSION, 6) { #qt6
-    win32:qtLib_compiler_name = MSVC2019_64_QT_6_5
-    unix:qtLib_compiler_name = GCC_64_QT_6_5
+    win32:qtLib_compiler_name = MSVC2022_64_QT_6_8
+    unix:qtLib_compiler_name = GCC_64_QT_6_8
 }
 message("qtLib_compiler_name is set to $$qtLib_compiler_name")
 #----------------------
